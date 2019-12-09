@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "GCP status timezone localize",
+    "description": "This extension localizes timezone on status.cloud.google.com from PST to locale timezone.",
+    "version": "1.0",
+    "icons": {
+        "32": "icon_32.png",
+        "48": "icon_48.png",
+        "128": "icon_128.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://status.cloud.google.com/*" ],
+        "js": ["content_scripts.js"]
+    }],
+    "browser_action": {
+        "default_icon": "icon_32.png",
+        "default_title": "GCP status timezone localize"
+    },
+    "permissions": [
+        "tabs",
+        "https://status.cloud.google.com/*"
+    ]
+}
