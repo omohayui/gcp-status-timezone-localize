@@ -3,7 +3,7 @@
     "name": "GCP status timezone localize",
     "description": "This extension localizes timezone on status.cloud.google.com from PST to locale timezone.",
     "author": "Yui Takeuchi",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
         "32": "icon_32.png",
         "48": "icon_48.png",
